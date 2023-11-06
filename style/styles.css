@@ -9,7 +9,8 @@
 }
 
 .Acontainer {
-    max-width: 1640px;
+    /* max-width: 1640px; */
+    max-width: 85%;
     margin: 0 auto;
     padding: 0 30px;
 }
