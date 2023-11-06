@@ -75,6 +75,12 @@
     background-repeat: no-repeat;
 }
 
+.novascotiaBgK2 {
+    background-image: url(../assets/AboutMain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .paddingBottomK2 {
     padding-bottom: 5%;
 }
@@ -125,5 +131,22 @@
 
 .border {
     border: none;
+    border-radius: 0%;
+}
+
+.cardTitlePadK {
+    padding-left: 3%;
+}
+
+.lineHeightK {
+    line-height: 22px;
+}
+
+.cardTxtPadK {
+    padding-bottom: 4%;
+    padding-left: 2%;
+}
+
+.radiusK {
     border-radius: 0%;
 }
