@@ -150,3 +150,117 @@
 .radiusK {
     border-radius: 0%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Nav Bar and Footer */
+
+@font-face{
+    font-family: Fugaz One, Regular;
+    src: url(/assets/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: Montauk, Regular;
+    src: url(/assets/Montauk-Regular.otf);
+}
+
+.Acontainer {
+    /* max-width: 1640px; */
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+body {
+    background-image: url(/assets/bgtexture.jpg);
+}
+
+/* Navbar */
+.Anavbar a {
+    color: #5F002B;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Fugaz One, Regular;
+}
+.Anavbar .Acontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.Anavbar ul {
+    display: flex;
+}
+.Anavbar ul li {
+    margin-left: 50px;
+}
+.Aabout {
+    margin-right: 11px;
+}
+/* Navbar End */
+
+
+
+/* Footer */
+.Afooter {
+    color: #5F002B;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montauk, Regular;
+    /* line-height: 1.2; */
+}
+.Afooter .Acontainer{
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+}
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;  
+    /* line-height: 0;  */
+}
+.footer-address {
+        display: flex;
+            flex-direction: column;
+            align-items: start;
+           
+}
+.AfooterImage {   
+    width: 150px;
+}
