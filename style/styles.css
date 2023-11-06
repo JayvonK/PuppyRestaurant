@@ -87,3 +87,43 @@
     padding-top: .9%;
     padding-bottom: -11px;
 }
+
+.evenK {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutImgK1{
+    background-image: url(../assets/doxie3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutImgK2{
+    background-image: url(../assets/jackrussel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutImgK3{
+    background-image: url(../assets/doxie1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutImgK5{
+    background-image: url(../assets/doxie2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutImgK6{
+    background-image: url(../assets/staffie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.border {
+    border: none;
+    border-radius: 0%;
+}
