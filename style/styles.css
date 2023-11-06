@@ -1,0 +1,89 @@
+.bodyBgK {
+    background-image: url(../assets/bgtexture.jpg);
+    background-size: 25%;
+}
+
+.homeHeaderBgK {
+    background-image: url(../assets/homeHero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homeFoodBgK {
+    background-image: url(../assets/homeSingle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homePaddingK {
+    padding-top: 4%;
+}
+
+@font-face {
+    font-family: Fugaz;
+    src: url(../assets/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montauk;
+    src: url(../assets/Montauk-Regular.otf);
+}
+
+.MontaukK {
+    font-family: Montauk;
+}
+
+.FugazK {
+    font-family: Fugaz;
+}
+
+.homeRowPaddingK {
+    padding-top: 3%;
+    padding-left: 3%;;
+}
+
+.homeRowPaddingK2 {
+    padding-left: 3%;;
+}
+
+.txtColorK {
+    color: #5F002B;
+}
+
+.colWidthK {
+    width: 1670px !important;
+}
+
+.centerK {
+    display: flex;
+    justify-content: center;
+}
+
+.homeImgBgK {
+    background-image: url(../assets/HomeImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paddingBottomK {
+    padding-bottom: 6.4%;
+}
+
+.novascotiaBgK {
+    background-image: url(../assets/novascotia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paddingBottomK2 {
+    padding-bottom: 5%;
+}
+
+.whiteK {
+    background-color: white;
+}
+
+.oTPaddingK {
+    padding-top: .9%;
+    padding-bottom: -11px;
+}
