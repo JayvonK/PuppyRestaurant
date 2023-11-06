@@ -1,7 +1,13 @@
 
 @font-face{
-    font-family: ;
+    font-family: Fugaz One, Regular;
+    src: url(/assets/FugazOne-Regular.ttf);
 }
+@font-face {
+    font-family: Montauk, Regular;
+    src: url(/assets/Montauk-Regular.otf);
+}
+
 .Acontainer {
     max-width: 1640px;
     margin: 0 auto;
@@ -17,6 +23,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    font-family: Fugaz One, Regular;
 }
 .Anavbar .Acontainer{
     display: flex;
@@ -42,6 +49,7 @@ body {
     color: #5F002B;
     text-decoration: none;
     font-size: 20px;
+    font-family: Montauk, Regular;
     /* line-height: 1.2; */
 }
 .Afooter .Acontainer{
