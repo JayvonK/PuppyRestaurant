@@ -64,8 +64,11 @@ img {
     /* Overrides Bootstrap's default width */
     max-width: none !important;
     /* Removes Bootstrap's max-width for larger screens */
+    margin-top: 15px;
 }
-
+.col-custom {
+    margin-right: 15px;
+}
 
 /* Footer */
 .Afooter {
@@ -74,6 +77,7 @@ img {
     font-size: 20px;
     font-family: Montauk, Regular;
     /* line-height: 1.2; */
+    margin-top: 120px;
 }
 .Afooter .Acontainer{
         display: flex;
