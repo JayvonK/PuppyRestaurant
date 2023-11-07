@@ -59,28 +59,13 @@ img {
 }
 
 
-
-.flex-container1 {
-    height: 100px;
-    /* needed to show veritical axis "start, center, end" */
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    /* flex-direction: row-reverse; */
-    /* flex-direction: column; */
-    background-color: #ffffff;
-    /* Justify-content is for "always in on the main axis(for columns or rows are different) */
-    /* justify-content: start; */
-    /* justify-content: end; */
-    /* justify-content: center; */
-    /* justify-content: space-around; */
-    /* justify-content: space-between; */
-    justify-content: space-evenly;
-    /* Always on teh cross axis (for columns or rows are different) */
-    /* align-items: end; */
-    /* align-items: center; */
-    align-items: center;
+.container-custom {
+    width: 85% !important;
+    /* Overrides Bootstrap's default width */
+    max-width: none !important;
+    /* Removes Bootstrap's max-width for larger screens */
 }
+
 
 /* Footer */
 .Afooter {
@@ -89,7 +74,6 @@ img {
     font-size: 20px;
     font-family: Montauk, Regular;
     /* line-height: 1.2; */
-    margin-top: 800px;
 }
 .Afooter .Acontainer{
         display: flex;
