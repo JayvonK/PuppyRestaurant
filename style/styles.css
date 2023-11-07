@@ -399,27 +399,12 @@ img {
     border-radius: 0%;
 }
 
-.cardTitlePadK {
-    padding-left: 3%;
-}
 
-.lineHeightK {
-    line-height: 22px;
-}
-
-.cardTxtPadK {
-    padding-bottom: 4%;
-    padding-left: 2%;
-}
 
 .radiusK {
     border-radius: 0%;
     background-color: #5f002b00;
     border: none;
-}
-
-.col {
-    flex: 0 0 0%;
 }
 
 
