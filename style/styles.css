@@ -196,7 +196,7 @@
     }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1235px) {
     .widthK {
         max-width: 900px;
     }
@@ -208,6 +208,11 @@
 
     .Acontainer {
         max-width: 900px !important;
+    }
+
+    div.media {
+        width: 425px !important;
+        height: 100%;
     }
 }
 
