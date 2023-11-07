@@ -4,8 +4,12 @@
     src: url(/assets/FugazOne-Regular.ttf);
 }
 @font-face {
-    font-family: Montauk, Regular;
+    font-family: Montauk;
     src: url(/assets/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: Montauk_light;
+    src: url(/assets/Montauk-Light.otf);
 }
 
 .Acontainer {
@@ -53,7 +57,7 @@ img {
             height: 80px;
            font-family: Fugaz One;
             color: #5F002B;
-            height: 60px;
+            height: 80px;
             background-color: aliceblue;
             margin-bottom: 50px;
 }
@@ -69,13 +73,50 @@ img {
 .col-custom {
     margin-right: 15px;
 }
+.card-title {
+    font-family: Fugaz One;
+    color: #5F002B;
+}
+.card-text{
+    font-family: Montauk;
+}
+.textPrice{
+    font-family: Montauk_light; 
+    color: #5F002B;
+    font-size: 28px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+     line-height: 1.2;
+}
+.textPriceTitle{
+    font-family: Montauk_light; 
+    color: #5F002B;
+    font-size: 28px;
+}
+.textPriceDescription{
+    font-family: Montauk;
+    font-size: 14px;
+    color: #5F002B;
+    margin-bottom: 0;
+}
+.priceUnderline {
+    color:#5F002B;    
+    
+    size: 4px;
+    
+
+}
+
+
 
 /* Footer */
 .Afooter {
     color: #5F002B;
     text-decoration: none;
     font-size: 20px;
-    font-family: Montauk, Regular;
+    font-family: Montauk;
     /* line-height: 1.2; */
     margin-top: 120px;
 }
