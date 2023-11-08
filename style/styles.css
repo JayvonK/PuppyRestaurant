@@ -1,4 +1,280 @@
+
 /* Jayvon Code */
+
+@font-face{
+    font-family: Fugaz One;
+    src: url(/assets/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: Montauk;
+    src: url(/assets/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: Montauk_light;
+    src: url(/assets/Montauk-Light.otf);
+}
+
+.Acontainer {
+    /* max-width: 1640px; */
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+body {
+    background-image: url(/assets/bgtexture.jpg);
+}
+img {
+    max-width: 100%;
+    /* margin: 0 30px; */
+}
+/* Navbar */
+.Anavbar a {
+    color: #5F002B;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Fugaz One;
+}
+.Anavbar .Acontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.Anavbar ul {
+    display: flex;
+}
+.Anavbar ul li {
+    margin-left: 50px;
+}
+.Aabout {
+    margin-right: 11px;
+}
+/* Navbar End */
+
+.Apage-title  .Acontainer{
+        display: flex;
+            justify-content: center ;
+            align-items: center;
+            height: 80px;
+           font-family: Fugaz One;
+            color: #5F002B;
+            height: 80px;
+            background-color: aliceblue;
+            margin-bottom: 50px;
+}
+
+
+.container-custom {
+    width: 85% !important;
+    /* Overrides Bootstrap's default width */
+    max-width: none !important;
+    /* Removes Bootstrap's max-width for larger screens */
+    margin-top: 15px;
+}
+.col-custom {
+    margin-right: 15px;
+}
+.card-title {
+    font-family: Fugaz One;
+    color: #5F002B;
+}
+.card-text{
+    font-family: Montauk;
+}
+.textPrice{
+    font-family: Montauk_light; 
+    color: #5F002B;
+    font-size: 28px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+     line-height: 1.2;
+}
+.textPriceTitle{
+    font-family: Montauk_light; 
+    color: #5F002B;
+    font-size: 28px;
+}
+.textPriceDescription{
+    font-family: Montauk;
+    font-size: 14px;
+    color: #5F002B;
+    margin-bottom: 0;
+}
+.priceUnderline {
+    color:#5F002B;    
+    
+    size: 4px;
+    
+
+}
+
+
+
+/* Footer */
+.Afooter {
+    color: #5F002B;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montauk;
+    /* line-height: 1.2; */
+    margin-top: 120px;
+}
+.Afooter .Acontainer{
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+}
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;  
+    /* line-height: 0;  */
+}
+.footer-address {
+        display: flex;
+            flex-direction: column;
+            align-items: start;
+           
+}
+.AfooterImage {   
+    width: 150px;
+}
+
+
+.Jbackcolor{
+background-color: #FFFFFF;
+/* width: 100%; */
+}
+
+.Jborder1{
+    border: solid 10px #FFFFFF;
+}
+
+.JPicBack{
+    background-image: url(../assets/cateringMaine.jpg);
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 991px) {
+    div.JPicSize
+    {
+        height: 200px !important;
+        background-position-y: 70%;
+        /* background-size: 80%; */
+        background-repeat: no-repeat;
+    }
+}
+
+
+/* ashur */
+
+@font-face{
+    font-family: Fugaz One;
+    src: url(../assets/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: Montauk, Regular;
+    src: url(../assets/Montauk-Regular.otf);
+}
+
+.Acontainer {
+    /* max-width: 1640px; */
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+body {
+    background-image: url(../assets/bgtexture.jpg);
+}
+img {
+    max-width: 100%;
+    /* margin: 0 30px; */
+}
+/* Navbar */
+.Anavbar a {
+    color: #5F002B;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: F3ugaz One;
+}
+.Anavbar .Acontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.Anavbar ul {
+    display: flex;
+}
+.Anavbar ul li {
+    margin-left: 50px;
+}
+.Aabout {
+    margin-right: 11px;
+}
+/* Navbar End */
+
+.Apage-title  .Acontainer{
+        display: flex;
+            justify-content: center ;
+            align-items: center;
+            height: 80px;
+           font-family: Fugaz One;
+            color: #5F002B;
+            height: 60px;
+            background-color: aliceblue;
+            margin-bottom: 50px;
+}
+
+
+.container-custom {
+    width: 85% !important;
+    /* Overrides Bootstrap's default width */
+    max-width: none !important;
+    /* Removes Bootstrap's max-width for larger screens */
+    margin-top: 15px;
+}
+.col-custom {
+    margin-right: 15px;
+}
+
+/* Footer */
+.Afooter {
+    color: #5F002B;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montauk, Regular;
+    /* line-height: 1.2; */
+    margin-top: 120px;
+}
+.Afooter .Acontainer{
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+}
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;  
+    /* line-height: 0;  */
+}
+.footer-address {
+        display: flex;
+            flex-direction: column;
+            align-items: start;
+           
+}
+.AfooterImage {   
+    width: 150px;
+}
+
 .bodyBgK {
     background-image: url(../assets/bgtexture.jpg);
     background-size: 25%;
