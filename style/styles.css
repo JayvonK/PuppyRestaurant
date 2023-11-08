@@ -1,3 +1,243 @@
+
+@font-face{
+    font-family: Fugaz One;
+    src: url(/assets/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: Montauk;
+    src: url(/assets/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: Montauk_light;
+    src: url(/assets/Montauk-Light.otf);
+}
+
+.Acontainer {
+    /* max-width: 1640px; */
+    max-width: 85.41666666666667%;
+    margin: 0 auto;
+    /* padding: 0 30px; */
+}
+body {
+    background-image: url(/assets/bgtexture.jpg);
+}
+img {
+    max-width: 100%;
+    /* margin: 0 30px; */
+}
+/* Navbar */
+.Anavbar a {
+    color: #5F002B;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Fugaz One;
+}
+.Anavbar .Acontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.Anavbar ul {
+    display: flex;
+}
+.Anavbar ul li {
+    margin-left: 50px;
+}
+.Aabout {
+    margin-right: 11px;
+}
+/* Navbar End */
+
+.Apage-title  .Acontainer{
+        display: flex;
+            justify-content: center ;
+            align-items: center;
+            height: 80px;
+           font-family: Fugaz One;
+            color: #5F002B;
+            height: 80px;
+            background-color: aliceblue;
+            margin-bottom: 50px;
+            padding-top: 10px;
+}
+
+
+.container-custom {
+    width:  85.41666666666667% ;
+    /* Overrides Bootstrap's default width */
+    max-width: none;
+    /* Removes Bootstrap's max-width for larger screens */
+    /* margin-top: 15px; */
+}
+.col-custom {
+    padding-right: 15px;
+}
+.card-img-top{
+    height: 170px;
+}
+.col-12{
+    margin-top: 15px;
+}
+.card-title {
+    font-family: Fugaz One;
+    color: #5F002B;
+}
+.custum-price-container{
+    display:flexbox;
+        flex-direction: column;
+        flex-basis: 100%;
+}
+.card-text{
+    font-family: Montauk;
+    color: #5F002B;
+}
+.textPrice{
+    font-family: Montauk_light; 
+    color: #5F002B;
+    font-size: 28px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+     line-height: 1.2;
+}
+.textPriceTitle{
+    font-family: Montauk_light; 
+    color: #5F002B;
+    font-size: 28px;
+    line-height: .8;
+}
+.textPriceDescription{
+    font-family: Montauk;
+    font-size: 14px;
+    color: #5F002B;
+    margin-bottom: 0;
+}
+.priceUnderline {
+    color:#5F002B;    
+    
+    size: 4px;
+    
+
+}
+
+
+
+/* Footer */
+.Afooter {
+    color: #5F002B;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montauk;
+    /* line-height: 1.2; */
+    margin-top: 120px;
+    line-height: 0.8;
+}
+.Afooter .Acontainer{
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+}
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;  
+    /* line-height: 0;  */
+}
+.footer-address {
+        display: flex;
+            flex-direction: column;
+            align-items: start;
+           
+}
+.AfooterImage {   
+    width: 150px;
+}
+
+
+/* .backcolor{
+background-color: #FFFFFF;
+} */
+
+.border{
+    border: solid 4px #FFFFFF;
+}
+
+@media (max-width: 991px) {
+    .col-custom{
+        padding-right: 0;
+        
+    }
+    .navbar-brand{
+        width: 55%;
+    }
+    .navbar-collapse {
+        display: flex;
+        align-items: right;
+        text-align: center;
+        margin-top: -10px;
+        line-height: 1.3;
+    }
+    .Apage-title .Acontainer {
+        margin-bottom: 10px;
+        height: 40px;
+    }
+        .Apage-title .Acontainer h1{
+            font-size: 25px;
+        }
+
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+        .navbar-toggler{
+            margin-right: 15px;
+        }
+
+    .card-body{
+        text-align: center;
+    }
+          .container-custom {
+              width: 95% !important;
+              /* Overrides Bootstrap's default width */
+              max-width: none !important;
+              /* Removes Bootstrap's max-width for larger screens */
+              
+    }
+    .Acontainer{
+    width: 95% !important;
+    max-width: none !important;
+    margin-top: -10px;
+    }
+    .footer-address{
+        font-size: small;
+        line-height: 0.7;
+        margin-left: -15px;
+        max-width: 50%;
+    }
+    .footerlogo{
+        
+        font-size: small;
+        line-height: 0.7;
+        margin-left: -15px;
+    }
+    .AfooterImage {
+        
+        width: 50%;
+    }
+    .Afooter{
+        margin-top: 40px;
+    }
+    
+}
+/* End of Ashur's CSS line 237 */
+
+
+/* Jayvon Code */
 /* Jayvon Code */
 .bodyBgK {
     background-image: url(../assets/bgtexture.jpg);
@@ -270,99 +510,41 @@
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 950px) {
     .widthK {
-        max-width: 700px;
+        max-width: 600px;
     }
 
-    .AcontainerK {
-        max-width: 700px !important;
+    .evenK {
+        display: flex;
+        justify-content: space-evenly;
     }
 
-    div.mediaHomeFood {
-        width: 100% !important;
-        height: 400px !important;
+    .Acontainer {
+        max-width: 600px !important;
     }
 }
 
-@media screen and (max-width: 745px) {
-    .widthK {
-        max-width: 540px;
-    }
 
-    .AcontainerK {
-        max-width: 540px !important;
-    }
 
-    h1.mediaTitle {
-        font-size: 40px !important;
-    }
 
-    div.mediaHomeFood {
-        width: 100% !important;
-        height: 200px !important;
-    }
-}
 
-@media screen and (max-width: 575px) {
-    .widthK {
-        max-width: 450px;
-    }
 
-    .AcontainerK {
-        max-width: 450px !important;
-    }
 
-    h1.mediaTitle {
-        font-size: 32px !important;
-    }
 
-    div.mediaCard {
-        height: 400px !important;
-    }
-}
 
-@media screen and (max-width: 500px) {
-    .widthK {
-        max-width: 350px;
-    }
 
-    .AcontainerK {
-        max-width: 350px !important;
-    }
 
-    div.mediaCard {
-        height: 320px !important;
-    }
-}
 
-@media screen and (max-width: 375px) {
-    .widthK {
-        max-width: 300px;
-    }
 
-    .AcontainerK {
-        max-width: 300px !important;
-    }
 
-    div.mediaCard {
-        height: 300px !important;
-    }
-}
 
-@media screen and (max-width: 325px) {
-    .widthK {
-        max-width: 250px;
-    }
 
-    .AcontainerK {
-        max-width: 250px !important;
-    }
 
-    div.mediaCard {
-        height: 250px !important;
-    }
-}
+
+
+
+
 
 
 
@@ -374,17 +556,16 @@
 
 /* Nav Bar and Footer */
 
-@font-face {
+@font-face{
     font-family: Fugaz One;
     src: url(/assets/FugazOne-Regular.ttf);
 }
-
 @font-face {
     font-family: Montauk, Regular;
     src: url(/assets/Montauk-Regular.otf);
 }
 
-.AcontainerK {
+.Acontainer {
     max-width: 1640px;
     margin: 0 auto;
 }
@@ -397,38 +578,33 @@
     font-weight: bold;
     font-family: Fugaz One;
 }
-
-.Anavbar .Acontainer {
+.Anavbar .Acontainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
-
 .Anavbar ul {
     display: flex;
 }
-
 .Anavbar ul li {
     margin-left: 50px;
 }
-
 .Aabout {
     margin-right: 11px;
 }
-
 /* Navbar End */
 
-.Apage-title .AcontainerK {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    font-family: Fugaz One;
-    color: #5F002B;
-    height: 60px;
-    background-color: aliceblue;
-    margin-bottom: 50px;
+.Apage-title  .Acontainer{
+        display: flex;
+            justify-content: center ;
+            align-items: center;
+            height: 80px;
+           font-family: Fugaz One;
+            color: #5F002B;
+            height: 60px;
+            background-color: aliceblue;
+            margin-bottom: 50px;
 }
 
 
@@ -439,7 +615,6 @@
     /* Removes Bootstrap's max-width for larger screens */
     margin-top: 15px;
 }
-
 .col-custom {
     margin-right: 15px;
 }
@@ -453,30 +628,24 @@
     /* line-height: 1.2; */
     margin-top: 120px;
 }
-
-.Afooter .AcontainerK {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+.Afooter .Acontainer{
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
 }
-
 .footerlogo {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: end;  
     /* line-height: 0;  */
 }
-
 .footer-address {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
+        display: flex;
+            flex-direction: column;
+            align-items: start;
+           
 }
-
-.AfooterImage {
+.AfooterImage {   
     width: 150px;
 }
-
-/* Jayvon Code */
