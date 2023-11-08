@@ -602,8 +602,28 @@ background-color: #FFFFFF;
         height: 250px !important;
     }
 }
-/* end of Jaraiah css */
 
+.AcontainerK {
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+/* End of Jayvon's Css */
+
+
+/* start of Jaraiah css */
+.Jbackcolor{
+    background-color: #FFFFFF;
+    /* width: 100%; */
+    }
+    .Jborder1{
+        border: solid 10px #FFFFFF;
+    }
+    .JPicBack{
+        background-image: url(../assets/cateringMaine.jpg);
+        background-size: cover;
+    }
+    /* end of Jeriah css */
 
 
 
