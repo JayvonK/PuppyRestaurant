@@ -145,10 +145,27 @@ img {
 
 .Jbackcolor{
 background-color: #FFFFFF;
+/* width: 100%; */
 }
 
 .Jborder1{
     border: solid 10px #FFFFFF;
+}
+
+.JPicBack{
+    background-image: url(../assets/cateringMaine.jpg);
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 991px) {
+    div.JPicSize
+    {
+        height: 200px !important;
+        background-position-y: 70%;
+        /* background-size: 80%; */
+        background-repeat: no-repeat;
+    }
 }
 
 
