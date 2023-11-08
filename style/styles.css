@@ -161,6 +161,12 @@
     line-height: 22px;
 }
 
+.fontGrillTxtK {
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+
 .cardTxtPadK {
     padding-bottom: 4%;
     padding-left: 2%;
@@ -211,6 +217,10 @@
     div.media2 {
         width: 465px !important;
     }
+
+    h1.mediaTitle {
+        font-size: 42px !important;
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -234,6 +244,18 @@
     div.media3 {
         padding-bottom: 15px;
     }
+
+    h1.mediaTitle {
+        font-size: 50px !important;
+        text-align: center ;
+    }
+
+    div.mediaRow,
+    h1.mediaRow {
+        width: 100% !important;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 990px) {
@@ -254,6 +276,10 @@
     .AcontainerK {
         max-width: 540px !important;
     }
+
+    h1.mediaTitle {
+        font-size: 40px !important;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -263,6 +289,14 @@
 
     .AcontainerK {
         max-width: 450px !important;
+    }
+
+    h1.mediaTitle {
+        font-size: 32px !important;
+    }
+
+    div.mediaCard {
+        height: 400px !important;
     }
 }
 
@@ -274,6 +308,10 @@
     .AcontainerK {
         max-width: 350px !important;
     }
+
+    div.mediaCard {
+        height: 320px !important;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -283,6 +321,10 @@
 
     .AcontainerK {
         max-width: 300px !important;
+    }
+
+    div.mediaCard {
+        height: 300px !important;
     }
 }
 
