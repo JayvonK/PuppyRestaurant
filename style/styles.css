@@ -238,7 +238,6 @@ background-color: #FFFFFF;
 
 
 /* Jayvon Code */
-/* Jayvon Code */
 .bodyBgK {
     background-image: url(../assets/bgtexture.jpg);
     background-size: 25%;
@@ -510,142 +509,149 @@ background-color: #FFFFFF;
 
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 991px) {
     .widthK {
-        max-width: 600px;
+        max-width: 700px;
     }
 
-    .evenK {
-        display: flex;
-        justify-content: space-evenly;
+    .AcontainerK {
+        max-width: 700px !important;
     }
 
-    .Acontainer {
-        max-width: 600px !important;
+    div.mediaHomeFood {
+        width: 100% !important;
+        height: 400px !important;
     }
 }
 
+@media screen and (max-width: 745px) {
+    .widthK {
+        max-width: 540px;
+    }
 
+    .AcontainerK {
+        max-width: 540px !important;
+    }
 
+    h1.mediaTitle {
+        font-size: 40px !important;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Nav Bar and Footer */
-
-@font-face{
-    font-family: Fugaz One;
-    src: url(/assets/FugazOne-Regular.ttf);
-}
-@font-face {
-    font-family: Montauk, Regular;
-    src: url(/assets/Montauk-Regular.otf);
+    div.mediaHomeFood {
+        width: 100% !important;
+        height: 200px !important;
+    }
 }
 
-.Acontainer {
-    max-width: 1640px;
+@media screen and (max-width: 575px) {
+    .widthK {
+        max-width: 450px;
+    }
+
+    .AcontainerK {
+        max-width: 450px !important;
+    }
+
+    h1.mediaTitle {
+        font-size: 32px !important;
+    }
+
+    div.mediaCard {
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .widthK {
+        max-width: 350px;
+    }
+
+    .AcontainerK {
+        max-width: 350px !important;
+    }
+
+    div.mediaCard {
+        height: 320px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .widthK {
+        max-width: 300px;
+    }
+
+    .AcontainerK {
+        max-width: 300px !important;
+    }
+
+    div.mediaCard {
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .widthK {
+        max-width: 250px;
+    }
+
+    .AcontainerK {
+        max-width: 250px !important;
+    }
+
+    div.mediaCard {
+        height: 250px !important;
+    }
+}
+
+.AcontainerK {
+    max-width: 85.41666666666667%;
     margin: 0 auto;
 }
 
-/* Navbar */
-.Anavbar a {
-    color: #5F002B;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+.Apage-title .AcontainerK {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
     font-family: Fugaz One;
+    color: #5F002B;
+    height: 60px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
 }
-.Anavbar .Acontainer{
+
+
+.Afooter .AcontainerK {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
-.Anavbar ul {
-    display: flex;
-}
-.Anavbar ul li {
-    margin-left: 50px;
-}
-.Aabout {
-    margin-right: 11px;
-}
-/* Navbar End */
 
-.Apage-title  .Acontainer{
-        display: flex;
-            justify-content: center ;
-            align-items: center;
-            height: 80px;
-           font-family: Fugaz One;
-            color: #5F002B;
-            height: 60px;
-            background-color: aliceblue;
-            margin-bottom: 50px;
-}
+/* End of Jayvon's Css */
 
 
-.container-custom {
-    width: 85% !important;
-    /* Overrides Bootstrap's default width */
-    max-width: none !important;
-    /* Removes Bootstrap's max-width for larger screens */
-    margin-top: 15px;
-}
-.col-custom {
-    margin-right: 15px;
-}
+/* start of Jaraiah css */
+.Jbackcolor{
+    background-color: #FFFFFF;
+    /* width: 100%; */
+    }
+    .Jborder1{
+        border: solid 10px #FFFFFF;
+    }
+    .JPicBack{
+        background-image: url(../assets/cateringMaine.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 
-/* Footer */
-.Afooter {
-    color: #5F002B;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Montauk, Regular;
-    /* line-height: 1.2; */
-    margin-top: 120px;
-}
-.Afooter .Acontainer{
-        display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100%;
-}
-.footerlogo {
-    display: flex;
-    flex-direction: column;
-    align-items: end;  
-    /* line-height: 0;  */
-}
-.footer-address {
-        display: flex;
-            flex-direction: column;
-            align-items: start;
-           
-}
-.AfooterImage {   
-    width: 150px;
-}
+    @media screen and (max-width: 991px) {
+        div.JPicSize
+        {
+            height: 200px !important;
+            background-position-y: 70%;
+            /* background-size: 80%; */
+            background-repeat: no-repeat;
+        }
+    }
+    /* end of Jeriah css */
