@@ -719,3 +719,21 @@ background-color: #FFFFFF;
 }
 
 /* Jayvon Code  721 */ 
+
+/* Jeriahs code 723 */
+
+.Jbackcolor{
+    background-color: #FFFFFF;
+    /* width: 100%; */
+    }
+    
+    .Jborder1{
+        border: solid 10px #FFFFFF;
+    }
+    
+    .JPicBack{
+        background-image: url(../assets/cateringMaine.jpg);
+        background-size: cover;
+    
+    }
+    /* end of Jeriahs code 739 */
