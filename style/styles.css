@@ -13,8 +13,8 @@
 }
 
 .Acontainer {
-    max-width: 1640px;
-    /* max-width: 85%; */
+    /* max-width: 1640px; */
+    max-width: 85.41666666666667%;
     margin: 0 auto;
     /* padding: 0 30px; */
 }
@@ -65,9 +65,9 @@ img {
 
 
 .container-custom {
-    width: 1640px !important;
+    width:  85.41666666666667% ;
     /* Overrides Bootstrap's default width */
-    max-width: none !important;
+    max-width: none;
     /* Removes Bootstrap's max-width for larger screens */
     /* margin-top: 15px; */
 }
