@@ -69,10 +69,16 @@ img {
     /* Overrides Bootstrap's default width */
     max-width: none !important;
     /* Removes Bootstrap's max-width for larger screens */
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 .col-custom {
     padding-right: 15px;
+}
+.card-img-top{
+    height: 170px;
+}
+.col-12{
+    margin-top: 15px;
 }
 .card-title {
     font-family: Fugaz One;
@@ -85,6 +91,7 @@ img {
 }
 .card-text{
     font-family: Montauk;
+    color: #5F002B;
 }
 .textPrice{
     font-family: Montauk_light; 
@@ -151,9 +158,9 @@ img {
 }
 
 
-.backcolor{
+/* .backcolor{
 background-color: #FFFFFF;
-}
+} */
 
 .border{
     border: solid 4px #FFFFFF;
@@ -162,6 +169,7 @@ background-color: #FFFFFF;
 @media (max-width: 991px) {
     .col-custom{
         padding-right: 0;
+        
     }
     .navbar-brand{
         width: 55%;
@@ -199,10 +207,30 @@ background-color: #FFFFFF;
               max-width: none !important;
               /* Removes Bootstrap's max-width for larger screens */
               
-          }
-          .Acontainer{
-            width: 95% !important;
-            max-width: none !important;
-            margin-top: -10px;
-          }
+    }
+    .Acontainer{
+    width: 95% !important;
+    max-width: none !important;
+    margin-top: -10px;
+    }
+    .footer-address{
+        font-size: small;
+        line-height: 0.7;
+        margin-left: -15px;
+        max-width: 50%;
+    }
+    .footerlogo{
+        
+        font-size: small;
+        line-height: 0.7;
+        margin-left: -15px;
+    }
+    .AfooterImage {
+        
+        width: 50%;
+    }
+    .Afooter{
+        margin-top: 40px;
+    }
+    
 }
