@@ -1,3 +1,4 @@
+/* Jayvon Code */
 .bodyBgK {
     background-image: url(../assets/bgtexture.jpg);
     background-size: 25%;
@@ -40,12 +41,10 @@
 .homeRowPaddingK {
     padding-top: 3%;
     padding-left: 3%;
-    ;
 }
 
 .homeRowPaddingK2 {
     padding-left: 3%;
-    ;
 }
 
 .txtColorK {
@@ -199,6 +198,10 @@
     div.media2 {
         width: 568px !important;
     }
+
+    div.mediaHomeFood {
+        width: 570px !important;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -220,6 +223,10 @@
 
     h1.mediaTitle {
         font-size: 42px !important;
+    }
+
+    div.mediaHomeFood {
+        width: 465px !important;
     }
 }
 
@@ -247,7 +254,7 @@
 
     h1.mediaTitle {
         font-size: 50px !important;
-        text-align: center ;
+        text-align: center;
     }
 
     div.mediaRow,
@@ -256,15 +263,25 @@
         text-align: center;
     }
 
+    div.mediaHomeFood {
+        width: 360px !important;
+    }
+
+
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991px) {
     .widthK {
         max-width: 700px;
     }
 
     .AcontainerK {
         max-width: 700px !important;
+    }
+
+    div.mediaHomeFood {
+        width: 100% !important;
+        height: 400px !important;
     }
 }
 
@@ -279,6 +296,11 @@
 
     h1.mediaTitle {
         font-size: 40px !important;
+    }
+
+    div.mediaHomeFood {
+        width: 100% !important;
+        height: 200px !important;
     }
 }
 
@@ -456,3 +478,5 @@
 .AfooterImage {
     width: 150px;
 }
+
+/* Jayvon Code */
