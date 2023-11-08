@@ -642,6 +642,7 @@ background-color: #FFFFFF;
     .JPicBack{
         background-image: url(../assets/cateringMaine.jpg);
         background-size: cover;
+        background-position: center;
     }
 
     @media screen and (max-width: 991px) {
