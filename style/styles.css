@@ -13,10 +13,10 @@
 }
 
 .Acontainer {
-    /* max-width: 1640px; */
-    max-width: 85%;
+    max-width: 1640px;
+    /* max-width: 85%; */
     margin: 0 auto;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 body {
     background-image: url(/assets/bgtexture.jpg);
@@ -65,7 +65,7 @@ img {
 
 
 .container-custom {
-    width: 85% !important;
+    width: 1640px !important;
     /* Overrides Bootstrap's default width */
     max-width: none !important;
     /* Removes Bootstrap's max-width for larger screens */
