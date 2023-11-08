@@ -608,6 +608,26 @@ background-color: #FFFFFF;
     margin: 0 auto;
 }
 
+.Apage-title .AcontainerK {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-family: Fugaz One;
+    color: #5F002B;
+    height: 60px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+}
+
+
+.Afooter .AcontainerK {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
 /* End of Jayvon's Css */
 
 
