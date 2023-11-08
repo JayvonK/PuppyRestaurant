@@ -39,11 +39,13 @@
 
 .homeRowPaddingK {
     padding-top: 3%;
-    padding-left: 3%;;
+    padding-left: 3%;
+    ;
 }
 
 .homeRowPaddingK2 {
-    padding-left: 3%;;
+    padding-left: 3%;
+    ;
 }
 
 .txtColorK {
@@ -107,31 +109,31 @@
     justify-content: space-between;
 }
 
-.aboutImgK1{
+.aboutImgK1 {
     background-image: url(../assets/doxie3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.aboutImgK2{
+.aboutImgK2 {
     background-image: url(../assets/jackrussel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.aboutImgK3{
+.aboutImgK3 {
     background-image: url(../assets/doxie1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.aboutImgK5{
+.aboutImgK5 {
     background-image: url(../assets/doxie2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.aboutImgK6{
+.aboutImgK6 {
     background-image: url(../assets/staffie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -170,6 +172,10 @@
     border: none;
 }
 
+.middleK {
+    display: flex;
+    align-items: center;
+}
 
 @media screen and (max-width: 1767px) {
     .widthK {
@@ -185,7 +191,7 @@
     }
 
     div.media2 {
-        width: 568px !important;   
+        width: 568px !important;
     }
 }
 
@@ -203,7 +209,7 @@
     }
 
     div.media2 {
-        width: 465px !important;   
+        width: 465px !important;
     }
 }
 
@@ -221,8 +227,8 @@
     }
 
     div.media2 {
-        height: 400px !important; 
-        width: 100% !important; 
+        height: 400px !important;
+        width: 100% !important;
     }
 
     div.media3 {
@@ -288,6 +294,10 @@
     .AcontainerK {
         max-width: 250px !important;
     }
+
+    div.mediaCard {
+        height: 250px !important;
+    }
 }
 
 
@@ -300,10 +310,11 @@
 
 /* Nav Bar and Footer */
 
-@font-face{
+@font-face {
     font-family: Fugaz One;
     src: url(/assets/FugazOne-Regular.ttf);
 }
+
 @font-face {
     font-family: Montauk, Regular;
     src: url(/assets/Montauk-Regular.otf);
@@ -322,33 +333,38 @@
     font-weight: bold;
     font-family: Fugaz One;
 }
-.Anavbar .Acontainer{
+
+.Anavbar .Acontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
+
 .Anavbar ul {
     display: flex;
 }
+
 .Anavbar ul li {
     margin-left: 50px;
 }
+
 .Aabout {
     margin-right: 11px;
 }
+
 /* Navbar End */
 
-.Apage-title  .AcontainerK{
-        display: flex;
-            justify-content: center ;
-            align-items: center;
-            height: 80px;
-           font-family: Fugaz One;
-            color: #5F002B;
-            height: 60px;
-            background-color: aliceblue;
-            margin-bottom: 50px;
+.Apage-title .AcontainerK {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-family: Fugaz One;
+    color: #5F002B;
+    height: 60px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
 }
 
 
@@ -359,6 +375,7 @@
     /* Removes Bootstrap's max-width for larger screens */
     margin-top: 15px;
 }
+
 .col-custom {
     margin-right: 15px;
 }
@@ -372,24 +389,28 @@
     /* line-height: 1.2; */
     margin-top: 120px;
 }
-.Afooter .AcontainerK{
-        display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100%;
+
+.Afooter .AcontainerK {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
+
 .footerlogo {
     display: flex;
     flex-direction: column;
-    align-items: end;  
+    align-items: end;
     /* line-height: 0;  */
 }
+
 .footer-address {
-        display: flex;
-            flex-direction: column;
-            align-items: start;
-           
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
 }
-.AfooterImage {   
+
+.AfooterImage {
     width: 150px;
 }
