@@ -60,6 +60,7 @@ img {
             height: 80px;
             background-color: aliceblue;
             margin-bottom: 50px;
+            
 }
 
 
@@ -515,20 +516,9 @@ img {
 
 /* Nav Bar and Footer */
 
-@font-face{
-    font-family: Fugaz One;
-    src: url(/assets/FugazOne-Regular.ttf);
-}
-@font-face {
-    font-family: Montauk, Regular;
-    src: url(/assets/Montauk-Regular.otf);
-}
 
-.Acontainer {
-    max-width: 1640px;
-    margin: 0 auto;
-    padding: 0 30px;
-}
+
+
 
 /* Navbar */
 .Anavbar a {
@@ -537,75 +527,4 @@ img {
     font-size: 20px;
     font-weight: bold;
     font-family: Fugaz One;
-}
-.Anavbar .Acontainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-.Anavbar ul {
-    display: flex;
-}
-.Anavbar ul li {
-    margin-left: 50px;
-}
-.Aabout {
-    margin-right: 11px;
-}
-/* Navbar End */
-
-.Apage-title  .Acontainer{
-        display: flex;
-            justify-content: center ;
-            align-items: center;
-            height: 80px;
-           font-family: Fugaz One;
-            color: #5F002B;
-            height: 60px;
-            background-color: aliceblue;
-            margin-bottom: 50px;
-}
-
-
-.container-custom {
-    width: 85% !important;
-    /* Overrides Bootstrap's default width */
-    max-width: none !important;
-    /* Removes Bootstrap's max-width for larger screens */
-    margin-top: 15px;
-}
-.col-custom {
-    margin-right: 15px;
-}
-
-/* Footer */
-.Afooter {
-    color: #5F002B;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Montauk, Regular;
-    /* line-height: 1.2; */
-    margin-top: 120px;
-}
-.Afooter .Acontainer{
-        display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100%;
-}
-.footerlogo {
-    display: flex;
-    flex-direction: column;
-    align-items: end;  
-    /* line-height: 0;  */
-}
-.footer-address {
-        display: flex;
-            flex-direction: column;
-            align-items: start;
-           
-}
-.AfooterImage {   
-    width: 150px;
 }
