@@ -60,6 +60,7 @@ img {
             height: 80px;
             background-color: aliceblue;
             margin-bottom: 50px;
+            padding-top: 10px;
 }
 
 
@@ -71,11 +72,16 @@ img {
     margin-top: 15px;
 }
 .col-custom {
-    margin-right: 15px;
+    padding-right: 15px;
 }
 .card-title {
     font-family: Fugaz One;
     color: #5F002B;
+}
+.custum-price-container{
+    display:flexbox;
+        flex-direction: column;
+        flex-basis: 100%;
 }
 .card-text{
     font-family: Montauk;
@@ -149,4 +155,32 @@ background-color: #FFFFFF;
 
 .border{
     border: solid 4px #FFFFFF;
+}
+
+@media (max-width: 991px) {
+    .col-custom{
+        padding-right: 0;
+    }
+    .navbar-brand{
+        width: 70%;
+    }
+    .navbar-collapse {
+        display: flex;
+        align-items: right;
+        text-align: center;
+    }
+    .Apage-title .Acontainer {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .card-body{
+        text-align: center;
+    }
 }
