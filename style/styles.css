@@ -595,6 +595,10 @@ background-color: #FFFFFF;
         text-align: center ;
         padding-left: 1.5rem;
     }
+
+    div.media {
+        width: 345px !important;
+    }
 }
 
 @media screen and (max-width: 745px) {
