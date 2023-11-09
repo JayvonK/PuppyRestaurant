@@ -14,9 +14,9 @@
 
 .Acontainer {
     /* max-width: 1640px; */
-    max-width: 85%;
+    max-width: 85.41666666666667%;
     margin: 0 auto;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 body {
     background-image: url(/assets/bgtexture.jpg);
@@ -60,26 +60,38 @@ img {
             height: 80px;
             background-color: aliceblue;
             margin-bottom: 50px;
-            
+            padding-top: 10px;
 }
 
 
 .container-custom {
-    width: 85% !important;
+    width:  85.41666666666667% ;
     /* Overrides Bootstrap's default width */
-    max-width: none !important;
+    max-width: none;
     /* Removes Bootstrap's max-width for larger screens */
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 .col-custom {
-    margin-right: 15px;
+    padding-right: 15px;
+}
+.card-img-top{
+   
+}
+.col-12{
+    margin-top: 15px;
 }
 .card-title {
     font-family: Fugaz One;
     color: #5F002B;
 }
+.custum-price-container{
+    display:flexbox;
+        flex-direction: column;
+        flex-basis: 100%;
+}
 .card-text{
     font-family: Montauk;
+    color: #5F002B;
 }
 .textPrice{
     font-family: Montauk_light; 
@@ -95,6 +107,7 @@ img {
     font-family: Montauk_light; 
     color: #5F002B;
     font-size: 28px;
+    line-height: .8;
 }
 .textPriceDescription{
     font-family: Montauk;
@@ -120,6 +133,7 @@ img {
     font-family: Montauk;
     /* line-height: 1.2; */
     margin-top: 120px;
+    line-height: 0.8;
 }
 .Afooter .Acontainer{
         display: flex;
@@ -144,118 +158,86 @@ img {
 }
 
 
-.Jbackcolor{
+/* .backcolor{
 background-color: #FFFFFF;
+} */
+
+.border{
+    border: solid 4px #FFFFFF;
 }
 
-.Jborder1{
-    border: solid 10px #FFFFFF;
-}
-
-
-/* ashur */
-
-@font-face{
-    font-family: Fugaz One;
-    src: url(../assets/FugazOne-Regular.ttf);
-}
-@font-face {
-    font-family: Montauk, Regular;
-    src: url(../assets/Montauk-Regular.otf);
-}
-
-.Acontainer {
-    /* max-width: 1640px; */
-    max-width: 85%;
-    margin: 0 auto;
-    padding: 0 30px;
-}
-body {
-    background-image: url(../assets/bgtexture.jpg);
-}
-img {
-    max-width: 100%;
-    /* margin: 0 30px; */
-}
-/* Navbar */
-.Anavbar a {
-    color: #5F002B;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: F3ugaz One;
-}
-.Anavbar .Acontainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-.Anavbar ul {
-    display: flex;
-}
-.Anavbar ul li {
-    margin-left: 50px;
-}
-.Aabout {
-    margin-right: 11px;
-}
-/* Navbar End */
-
-.Apage-title  .Acontainer{
+@media (max-width: 991px) {
+    .col-custom{
+        padding-right: 0;
+        
+    }
+    .navbar-brand{
+        width: 55%;
+    }
+    .navbar-collapse {
         display: flex;
-            justify-content: center ;
-            align-items: center;
-            height: 80px;
-           font-family: Fugaz One;
-            color: #5F002B;
-            height: 60px;
-            background-color: aliceblue;
-            margin-bottom: 50px;
-}
+        align-items: right;
+        text-align: center;
+        margin-top: -10px;
+        line-height: 1.3;
+    }
+    .Apage-title .Acontainer {
+        margin-bottom: 10px;
+        height: 40px;
+    }
+        .Apage-title .Acontainer h1{
+            font-size: 25px;
+        }
 
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+        .navbar-toggler{
+            margin-right: 15px;
+        }
 
-.container-custom {
-    width: 85% !important;
-    /* Overrides Bootstrap's default width */
+    .card-body{
+        text-align: center;
+    }
+          .container-custom {
+              width: 95% !important;
+              /* Overrides Bootstrap's default width */
+              max-width: none !important;
+              /* Removes Bootstrap's max-width for larger screens */
+              
+    }
+    .Acontainer{
+    width: 95% !important;
     max-width: none !important;
-    /* Removes Bootstrap's max-width for larger screens */
-    margin-top: 15px;
+    margin-top: -10px;
+    }
+    .footer-address{
+        font-size: small;
+        line-height: 0.7;
+        margin-left: -15px;
+        max-width: 50%;
+    }
+    .footerlogo{
+        
+        font-size: small;
+        line-height: 0.7;
+        margin-left: -15px;
+    }
+    .AfooterImage {
+        
+        width: 50%;
+    }
+    .Afooter{
+        margin-top: 40px;
+    }
+    
 }
-.col-custom {
-    margin-right: 15px;
-}
+/* End of Ashur's CSS line 237 */
 
-/* Footer */
-.Afooter {
-    color: #5F002B;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Montauk, Regular;
-    /* line-height: 1.2; */
-    margin-top: 120px;
-}
-.Afooter .Acontainer{
-        display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100%;
-}
-.footerlogo {
-    display: flex;
-    flex-direction: column;
-    align-items: end;  
-    /* line-height: 0;  */
-}
-.footer-address {
-        display: flex;
-            flex-direction: column;
-            align-items: start;
-           
-}
-.AfooterImage {   
-    width: 150px;
-}
+
+/* Jayvon Code */
 .bodyBgK {
     background-image: url(../assets/bgtexture.jpg);
     background-size: 25%;
@@ -297,11 +279,11 @@ img {
 
 .homeRowPaddingK {
     padding-top: 3%;
-    padding-left: 3%;;
+    padding-left: 3%;
 }
 
 .homeRowPaddingK2 {
-    padding-left: 3%;;
+    padding-left: 3%;
 }
 
 .txtColorK {
@@ -321,6 +303,10 @@ img {
     background-image: url(../assets/HomeImage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.paddingTopK {
+    padding-top: 30px;
 }
 
 .paddingBottomK {
@@ -361,34 +347,39 @@ img {
     justify-content: space-between;
 }
 
-.aboutImgK1{
+.aboutImgK1 {
     background-image: url(../assets/doxie3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.aboutImgK2{
+.aboutImgK2 {
     background-image: url(../assets/jackrussel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.aboutImgK3{
+.aboutImgK3 {
     background-image: url(../assets/doxie1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.aboutImgK5{
+.aboutImgK5 {
     background-image: url(../assets/doxie2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.aboutImgK6{
+.aboutImgK6 {
     background-image: url(../assets/staffie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.rightK {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .widthK {
@@ -408,6 +399,12 @@ img {
     line-height: 22px;
 }
 
+.fontGrillTxtK {
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+
 .cardTxtPadK {
     padding-bottom: 4%;
     padding-left: 2%;
@@ -419,19 +416,30 @@ img {
     border: none;
 }
 
+.middleK {
+    display: flex;
+    align-items: center;
+}
 
 @media screen and (max-width: 1767px) {
     .widthK {
         max-width: 1400px;
     }
 
-    .evenK {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
     .AcontainerK {
         max-width: 1400px !important;
+    }
+
+    div.media {
+        width: 457px !important;
+    }
+
+    div.media2 {
+        width: 568px !important;
+    }
+
+    div.mediaHomeFood {
+        width: 570px !important;
     }
 }
 
@@ -440,91 +448,215 @@ img {
         max-width: 1150px;
     }
 
-    .evenK {
-        display: flex;
-        justify-content: space-evenly;
+    .AcontainerK {
+        max-width: 1150px !important;
     }
 
-    .Acontainer {
-        max-width: 1150px !important;
+    div.media {
+        width: 568px !important;
+    }
+
+    div.media2 {
+        width: 465px !important;
+    }
+
+    h1.mediaTitle {
+        font-size: 42px !important;
+    }
+
+    div.mediaHomeFood {
+        width: 465px !important;
     }
 }
 
-@media screen and (max-width: 1235px) {
+@media screen and (max-width: 1199px) {
     .widthK {
         max-width: 900px;
     }
 
-    .evenK {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .Acontainer {
+    .AcontainerK {
         max-width: 900px !important;
     }
 
     div.media {
-        width: 425px !important;
-        height: 100%;
+        width: 443px !important;
     }
+
+    div.media2 {
+        height: 400px !important;
+        width: 100% !important;
+    }
+
+    div.media3 {
+        padding-bottom: 15px;
+    }
+
+    h1.mediaTitle {
+        font-size: 50px !important;
+        text-align: center;
+    }
+
+    div.mediaRow,
+    h1.mediaRow {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    div.mediaHomeFood {
+        width: 360px !important;
+    }
+
+
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 991px) {
     .widthK {
-        max-width: 600px;
+        max-width: 700px;
     }
 
-    .evenK {
-        display: flex;
-        justify-content: space-evenly;
+    .AcontainerK {
+        max-width: 700px !important;
     }
 
-    .Acontainer {
-        max-width: 600px !important;
+    div.mediaHomeFood {
+        width: 100% !important;
+        height: 400px !important;
     }
 }
 
+@media screen and (max-width: 745px) {
+    .widthK {
+        max-width: 540px;
+    }
 
+    .AcontainerK {
+        max-width: 540px !important;
+    }
 
+    h1.mediaTitle {
+        font-size: 40px !important;
+    }
 
+    div.mediaHomeFood {
+        width: 100% !important;
+        height: 200px !important;
+    }
+}
 
+@media screen and (max-width: 575px) {
+    .widthK {
+        max-width: 450px;
+    }
 
+    .AcontainerK {
+        max-width: 450px !important;
+    }
 
+    h1.mediaTitle {
+        font-size: 32px !important;
+    }
 
+    div.mediaCard {
+        height: 400px !important;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .widthK {
+        max-width: 350px;
+    }
 
+    .AcontainerK {
+        max-width: 350px !important;
+    }
 
+    div.mediaCard {
+        height: 320px !important;
+    }
+}
 
+@media screen and (max-width: 375px) {
+    .widthK {
+        max-width: 300px;
+    }
 
+    .AcontainerK {
+        max-width: 300px !important;
+    }
 
+    div.mediaCard {
+        height: 300px !important;
+    }
+}
 
+@media screen and (max-width: 325px) {
+    .widthK {
+        max-width: 250px;
+    }
 
+    .AcontainerK {
+        max-width: 250px !important;
+    }
 
+    div.mediaCard {
+        height: 250px !important;
+    }
+}
 
+.AcontainerK {
+    max-width: 85.41666666666667%;
+    margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-/* Nav Bar and Footer */
-
-
-
-
-
-/* Navbar */
-.Anavbar a {
-    color: #5F002B;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+.Apage-title .AcontainerK {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
     font-family: Fugaz One;
+    color: #5F002B;
+    height: 60px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
 }
+
+
+.Afooter .AcontainerK {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/* End of Jayvon's Css */
+
+
+/* start of Jaraiah css */
+.Jbackcolor{
+    background-color: #FFFFFF;
+    /* width: 100%; */
+    }
+    .Jborder1{
+        border: solid 10px #FFFFFF;
+    }
+    .JPicBack{
+        background-image: url(../assets/cateringMaine.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media screen and (max-width: 991px) {
+        div.JPicSize
+        {
+            height: 200px !important;
+            background-position-y: 70%;
+            /* background-size: 80%; */
+            background-repeat: no-repeat;
+        }
+    }
+    /* end of Jeriah css */
+
+
+
+
+
