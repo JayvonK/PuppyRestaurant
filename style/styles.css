@@ -217,7 +217,6 @@ background-color: #FFFFFF;
     .footer-address{
         font-size: small;
         line-height: 0.7;
-        margin-left: -15px;
         max-width: 50%;
     }
     .footerlogo{
@@ -435,6 +434,14 @@ background-color: #FFFFFF;
 
     .AcontainerK {
         max-width: 85.41666666666667% !important;
+    }
+
+    div.mediaHomeFood {
+        width: 100% !important;
+    }
+
+    div.media2 {
+        width: 100% !important;
     }
 }
 
@@ -697,6 +704,14 @@ background-color: #FFFFFF;
 }
 
 
+.carousel-control-next-icon {
+  background-image: url(../assets/Gartoon-Team-Gartoon-Action-Go-next.512.png);
+}
+
+
+.carousel-control-prev-icon{
+    background-image: url(../assets/back\ arrow.png);
+}
 
 .Apage-title .AcontainerK {
     display: flex;
