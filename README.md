@@ -1,3 +1,24 @@
+- Jayvon Khuth, Ashur Nanno, Jeriah Marson
+
+- 11/9/2023
+
+- Puppy Restaurant
+
+- Recreated a website for a Puppy Restuarant using html and css. We all collaborated together for the first time using branches in github, which was a challenge, for this project
+
+- After the peer review from Isaiah, we fixed all the minor critiques Isaiah said we had
+
+- Peer Review:
+
+
+
+
+
+
+
+
+
+
 Peer Review: Isaiah Ferguson
 Peer Review Critique:
 -Menu- The images on the right are not lined up with the images on the left its causing all the line to be misaligned as well.
