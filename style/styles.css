@@ -216,7 +216,6 @@ background-color: #FFFFFF;
     .footer-address{
         font-size: small;
         line-height: 0.7;
-        margin-left: -15px;
         max-width: 50%;
     }
     .footerlogo{
@@ -278,12 +277,12 @@ background-color: #FFFFFF;
 }
 
 .homeRowPaddingK {
-    padding-top: 3%;
-    padding-left: 3%;
+    padding-top: 3.8%;
+    padding-left: 6%;
 }
 
 .homeRowPaddingK2 {
-    padding-left: 3%;
+    padding-left: 6%;
 }
 
 .txtColorK {
@@ -313,6 +312,7 @@ background-color: #FFFFFF;
     padding-bottom: 6.4%;
 }
 
+
 .novascotiaBgK {
     background-image: url(../assets/novascotia.jpg);
     background-size: cover;
@@ -326,7 +326,11 @@ background-color: #FFFFFF;
 }
 
 .paddingBottomK2 {
-    padding-bottom: 5%;
+    padding-bottom: 4%;
+}
+
+.paddingBottomK4 {
+    padding-bottom: 13%;
 }
 
 .paddingBottomK3 {
@@ -421,13 +425,42 @@ background-color: #FFFFFF;
     align-items: center;
 }
 
+
+@media screen {
+    .widthK {
+        width: 2000px !important;
+    }
+
+    .AcontainerK {
+        max-width: 85.41666666666667% !important;
+    }
+
+    div.mediaHomeFood {
+        width: 100% !important;
+    }
+
+    div.media2 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 2100px) {
+    .widthK {
+        max-width: 1640px;
+    }
+
+    .AcontainerK {
+        max-width: 85.41666666666667% !important;
+    }
+}
+
 @media screen and (max-width: 1767px) {
     .widthK {
         max-width: 1400px;
     }
 
     .AcontainerK {
-        max-width: 1400px !important;
+        max-width: 85.41666666666667% !important;
     }
 
     div.media {
@@ -449,7 +482,7 @@ background-color: #FFFFFF;
     }
 
     .AcontainerK {
-        max-width: 1150px !important;
+        max-width: 85.41666666666667% !important;
     }
 
     div.media {
@@ -467,15 +500,19 @@ background-color: #FFFFFF;
     div.mediaHomeFood {
         width: 465px !important;
     }
+
+    h2.grill {
+        font-size: 45px !important;
+    }
 }
 
 @media screen and (max-width: 1199px) {
     .widthK {
-        max-width: 900px;
+        max-width: 900px !important;
     }
 
     .AcontainerK {
-        max-width: 900px !important;
+        max-width: 85.41666666666667% !important;
     }
 
     div.media {
@@ -500,18 +537,26 @@ background-color: #FFFFFF;
     h1.mediaRow {
         width: 100% !important;
         text-align: center;
+        padding-left: 1.5rem;
     }
 
     div.mediaHomeFood {
         width: 360px !important;
     }
 
+    h2.grill {
+        font-size: 34px !important;
+    }
+
+    div.mediaFoodHeader {
+        height: 450px !important;
+    }
 
 }
 
 @media screen and (max-width: 991px) {
     .widthK {
-        max-width: 700px;
+        max-width: 700px !important;
     }
 
     .AcontainerK {
@@ -522,11 +567,29 @@ background-color: #FFFFFF;
         width: 100% !important;
         height: 400px !important;
     }
+
+    div.mediaRowImg {
+        height: 0px !important;
+    }
+
+    div.mediaFoodHeader {
+        height: 450px !important;
+    }
+
+    h2.grill {
+        font-size: 45px !important;
+    }
+
+    h2.mediaRow2,
+    p.mediaRow2 {
+        text-align: center ;
+        padding-left: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 745px) {
     .widthK {
-        max-width: 540px;
+        max-width: 540px !important;
     }
 
     .AcontainerK {
@@ -539,13 +602,17 @@ background-color: #FFFFFF;
 
     div.mediaHomeFood {
         width: 100% !important;
-        height: 200px !important;
+        height: 300px !important;
+    }
+
+    h2.grill {
+        font-size: 36px !important;
     }
 }
 
 @media screen and (max-width: 575px) {
     .widthK {
-        max-width: 450px;
+        max-width: 450px !important;
     }
 
     .AcontainerK {
@@ -559,11 +626,24 @@ background-color: #FFFFFF;
     div.mediaCard {
         height: 400px !important;
     }
+
+    h2.grill {
+        font-size: 30px !important;
+    }
+
+    div.mediaHomeFood {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    div.mediaFoodHeader {
+        height: 250px !important;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .widthK {
-        max-width: 350px;
+        max-width: 350px !important;
     }
 
     .AcontainerK {
@@ -577,7 +657,7 @@ background-color: #FFFFFF;
 
 @media screen and (max-width: 375px) {
     .widthK {
-        max-width: 300px;
+        max-width: 300px !important;
     }
 
     .AcontainerK {
@@ -591,7 +671,7 @@ background-color: #FFFFFF;
 
 @media screen and (max-width: 325px) {
     .widthK {
-        max-width: 250px;
+        max-width: 250px !important;
     }
 
     .AcontainerK {
@@ -603,9 +683,33 @@ background-color: #FFFFFF;
     }
 }
 
+@media screen and (max-width: 276px) {
+    .widthK {
+        max-width: 175px !important;
+    }
+
+    .AcontainerK {
+        max-width: 175px !important;
+    }
+
+    div.mediaCard {
+        height: 175px !important;
+    }
+}
+
 .AcontainerK {
     max-width: 85.41666666666667%;
     margin: 0 auto;
+}
+
+
+.carousel-control-next-icon {
+  background-image: url(../assets/Gartoon-Team-Gartoon-Action-Go-next.512.png);
+}
+
+
+.carousel-control-prev-icon{
+    background-image: url(../assets/back\ arrow.png);
 }
 
 .Apage-title .AcontainerK {
