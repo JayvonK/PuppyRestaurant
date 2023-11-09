@@ -715,11 +715,20 @@ background-color: #FFFFFF;
 
 .carousel-control-next-icon {
   background-image: url(../assets/Gartoon-Team-Gartoon-Action-Go-next.512.png);
+  width: 3rem;
+  height: 3rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 100%;
 }
 
 
 .carousel-control-prev-icon{
     background-image: url(../assets/back\ arrow.png);
+    width: 3rem;
+    height: 3rem;
 }
 
 .Apage-title .AcontainerK {
