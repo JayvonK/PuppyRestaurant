@@ -749,13 +749,14 @@ background-color: #FFFFFF;
         background-position: center;
     }
 
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: 992px) {
         div.JPicSize
         {
             height: 200px !important;
             background-position-y: 70%;
             /* background-size: 80%; */
             background-repeat: no-repeat;
+            width: 100% !important;
         }
     }
     /* end of Jeriah css */
