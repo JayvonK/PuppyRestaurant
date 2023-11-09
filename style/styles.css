@@ -752,6 +752,7 @@ background-color: #FFFFFF;
     }
     .Jborder1{
         border: solid 10px #FFFFFF;
+        
     }
     .JPicBack{
         background-image: url(../assets/cateringMaine.jpg);
@@ -768,6 +769,11 @@ background-color: #FFFFFF;
             background-repeat: no-repeat;
             width: 100% !important;
         }
+                .Jborder1 {
+                    border: solid 10px #FFFFFF;
+                    width: 100%;
+                    margin: 2% 0;
+                }
     }
     /* end of Jeriah css */
 
