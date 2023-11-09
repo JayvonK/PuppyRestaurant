@@ -133,7 +133,7 @@ img {
     font-size: 20px;
     font-family: Montauk;
     /* line-height: 1.2; */
-    margin-top: 120px;
+    margin-top: 90px;
     line-height: 0.8;
     margin-bottom: 30px;
 }
@@ -453,6 +453,14 @@ background-color: #FFFFFF;
 
     .AcontainerK {
         max-width: 85.41666666666667% !important;
+    }
+    
+    div.mediaHomeFood {
+        width: 674px !important;
+    }
+
+    div.media2 {
+        width: 675.5px !important;
     }
 }
 
