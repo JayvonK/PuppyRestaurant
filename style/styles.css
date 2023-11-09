@@ -462,6 +462,10 @@ background-color: #FFFFFF;
     div.media2 {
         width: 675.5px !important;
     }
+
+    img.media2 {
+        height: 728.5px;
+    }
 }
 
 @media screen and (max-width: 1767px) {
@@ -483,6 +487,10 @@ background-color: #FFFFFF;
 
     div.mediaHomeFood {
         width: 570px !important;
+    }
+
+    img.media2 {
+        height: 832.5px;
     }
 }
 
@@ -513,6 +521,10 @@ background-color: #FFFFFF;
 
     h2.grill {
         font-size: 45px !important;
+    }
+
+    img.media2 {
+        height: 942px;
     }
 }
 
@@ -562,6 +574,11 @@ background-color: #FFFFFF;
         height: 450px !important;
     }
 
+    img.media2 {
+        height: 400px;
+        width: 924px;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -594,6 +611,10 @@ background-color: #FFFFFF;
     p.mediaRow2 {
         text-align: center ;
         padding-left: 1.5rem;
+    }
+
+    div.media {
+        width: 345px !important;
     }
 }
 
