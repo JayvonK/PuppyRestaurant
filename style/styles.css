@@ -500,6 +500,9 @@ background-color: #FFFFFF;
     img.media2 {
         height: 832.5px;
     }
+    img.mediaHomeFood {
+        height: 463.2px;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -589,6 +592,9 @@ background-color: #FFFFFF;
     img.media2 {
         height: 400px;
         width: 924px;
+    }
+    img.mediaHomeFood {
+        height: 480.2px;
     }
 
 }
