@@ -448,6 +448,10 @@ background-color: #FFFFFF;
     img.mediaFoodHeader {
         height: 600px;
     }
+
+    img.mediaHomeFood {
+        height: 476.8px;
+    }
 }
 
 @media screen and (max-width: 2100px) {
@@ -632,6 +636,11 @@ background-color: #FFFFFF;
     img.mediaCarousel {
         width: 1900px !important;
     }
+
+    img.mediaHomeFood {
+        height: 350px;
+        width: 724px;
+    }
 }
 
 @media screen and (max-width: 745px) {
@@ -654,6 +663,10 @@ background-color: #FFFFFF;
 
     h2.grill {
         font-size: 36px !important;
+    }
+
+    img.mediaHomeFood {
+        height: 260px;
     }
 }
 
@@ -689,6 +702,10 @@ background-color: #FFFFFF;
 
     img.mediaFoodHeader {
         height: 250px;
+    }
+
+    img.mediaHomeFood {
+        height: 240px;
     }
 }
 
