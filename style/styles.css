@@ -75,6 +75,7 @@ img {
     padding-right: 15px;
 }
 .card-img-top{
+    border-radius: 0%;
    
 }
 .col-12{
