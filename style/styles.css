@@ -444,6 +444,10 @@ background-color: #FFFFFF;
     div.media2 {
         width: 100% !important;
     }
+
+    img.mediaFoodHeader {
+        height: 600px;
+    }
 }
 
 @media screen and (max-width: 2100px) {
@@ -504,7 +508,7 @@ background-color: #FFFFFF;
     }
 
     div.media {
-        width: 568px !important;
+        width: 536px !important;
     }
 
     div.media2 {
@@ -574,6 +578,10 @@ background-color: #FFFFFF;
         height: 450px !important;
     }
 
+    img.mediaFoodHeader {
+        height: 450px;
+    }
+
     img.media2 {
         height: 400px;
         width: 924px;
@@ -603,6 +611,10 @@ background-color: #FFFFFF;
         height: 450px !important;
     }
 
+    img.mediaFoodHeader {
+        height: 450px;
+    }
+
     h2.grill {
         font-size: 45px !important;
     }
@@ -615,6 +627,10 @@ background-color: #FFFFFF;
 
     div.media {
         width: 345px !important;
+    }
+
+    img.mediaCarousel {
+        width: 1900px !important;
     }
 }
 
@@ -669,6 +685,10 @@ background-color: #FFFFFF;
 
     div.mediaFoodHeader {
         height: 250px !important;
+    }
+
+    img.mediaFoodHeader {
+        height: 250px;
     }
 }
 
