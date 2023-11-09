@@ -503,6 +503,9 @@ background-color: #FFFFFF;
     img.mediaHomeFood {
         height: 463.2px;
     }
+    img.mediaHomeImg {
+        height: 185px;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -536,6 +539,10 @@ background-color: #FFFFFF;
 
     img.media2 {
         height: 942px;
+    }
+
+    img.mediaHomeImg {
+        height: 185px;
     }
 }
 
@@ -597,6 +604,10 @@ background-color: #FFFFFF;
         height: 480.2px;
     }
 
+    img.mediaHomeImg {
+        height: 185px;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -644,7 +655,7 @@ background-color: #FFFFFF;
     }
 
     img.mediaHomeFood {
-        height: 350px;
+        height: 400px;
         width: 724px;
     }
 }
@@ -672,7 +683,7 @@ background-color: #FFFFFF;
     }
 
     img.mediaHomeFood {
-        height: 260px;
+        height: 300px;
     }
 }
 
@@ -711,7 +722,7 @@ background-color: #FFFFFF;
     }
 
     img.mediaHomeFood {
-        height: 240px;
+        height: 250px;
     }
 }
 
@@ -745,11 +756,11 @@ background-color: #FFFFFF;
 
 @media screen and (max-width: 325px) {
     .widthK {
-        max-width: 250px !important;
+        max-width: 280px !important;
     }
 
     .AcontainerK {
-        max-width: 250px !important;
+        max-width: 280px !important;
     }
 
     div.mediaCard {
@@ -757,13 +768,13 @@ background-color: #FFFFFF;
     }
 }
 
-@media screen and (max-width: 276px) {
+@media screen and (max-width: 295px) {
     .widthK {
-        max-width: 175px !important;
+        max-width: 235px !important;
     }
 
     .AcontainerK {
-        max-width: 175px !important;
+        max-width: 235px !important;
     }
 
     div.mediaCard {
