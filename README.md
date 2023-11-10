@@ -9,6 +9,9 @@
 - After the peer review from Isaiah, we fixed all the minor critiques Isaiah said we had
 
 - Peer Review:
+Robert Arias, Jared Ly, Halley Pham
+
+Tablet and mobile all format correctly,the teams when scaled down turn into a carosel which is a nice way to scale down and make it fit. all menu items are alligned too  the nav works and scales correctly, so does the footer.
 
 
 
