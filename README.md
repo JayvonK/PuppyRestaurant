@@ -4,7 +4,7 @@
 
 - Puppy Restaurant
 
-- Recreated a website for a Puppy Restuarant using html and css. We all collaborated together for the first time using branches in github, which was a challenge, for this project
+- Recreated a website for a Puppy Restaurant using html and css. We all collaborated together for the first time using branches in github, which was a challenge, for this project
 
 - After the peer review from Isaiah, we fixed all the minor critiques Isaiah said we had
 
