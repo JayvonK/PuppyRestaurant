@@ -14,14 +14,6 @@ Robert Arias, Jared Ly, Halley Pham
 Tablet and mobile all format correctly,the teams when scaled down turn into a carosel which is a nice way to scale down and make it fit. all menu items are alligned too  the nav works and scales correctly, so does the footer.
 
 
-
-
-
-
-
-
-
-
 Peer Review: Isaiah Ferguson
 Peer Review Critique:
 -Menu- The images on the right are not lined up with the images on the left its causing all the line to be misaligned as well.
